@@ -1,4 +1,4 @@
-# sample-github-action
+# spring-boot-github-action
 
 > Spring Boot application with a GitHub Actions CI/CD workflow — builds, tests, packages a Docker image, and deploys to Kubernetes.
 
@@ -27,18 +27,17 @@ Push to main
 ## Getting Started
 
 ```bash
-git clone https://github.com/misoboy/sample-github-action.git
-cd sample-github-action
+git clone https://github.com/misoboy/spring-boot-github-action.git
+cd spring-boot-github-action
 
-# Run locally
 ./mvnw spring-boot:run
 ```
 
 ### Docker
 
 ```bash
-docker build -t sample-github-action .
-docker run -p 8080:8080 sample-github-action
+docker build -t spring-boot-github-action .
+docker run -p 8080:8080 spring-boot-github-action
 ```
 
 ## GitHub Actions Workflows
@@ -50,9 +49,8 @@ docker run -p 8080:8080 sample-github-action
 
 ## Related
 
-- [sample-manifest](https://github.com/misoboy/sample-manifest) — Kubernetes manifests for this application
+- [k8s-sample-manifest](https://github.com/misoboy/k8s-sample-manifest) — Kubernetes manifests for this application
 
 ## License
 
 MIT
-
